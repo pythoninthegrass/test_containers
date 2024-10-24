@@ -37,6 +37,13 @@ poetry install
 
 ## Quickstart
 
+> [!NOTE]
+> There is a [helper script](bin/download.py) in the `bin` directory to download the AdventureWorks2017.bak file. This file is used to restore the database in the examples.
+> 
+> Run via `./bin/download.py <URL> ./examples/db/ms_sql/aw_lt_2017.bak`
+> 
+> The URL is found at [AdventureWorks sample databases - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms#download-backup-files).
+
 ```bash
 # ms sql
 cd examples/db/ms_sql/
@@ -69,6 +76,7 @@ Stopping container...
 
 ## TODO
 
+* Write a test that uses a testcontainer
 * Add taskfile for task runners
 * Add more examples
   * MongoDB
