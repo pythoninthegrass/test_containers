@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "charliermarsh.ruff",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "foxundermoon.shell-format",
+    "jetpack-io.devbox",
+    "mads-hartmann.bash-ide-vscode",
+    "mechatroner.rainbow-csv",
+    "ms-azuretools.vscode-docker",
+    "ms-python.python",
+    "ms-vsliveshare.vsliveshare",
+    "redhat.vscode-yaml",
+    "ryu1kn.partial-diff",
+    "yzhang.markdown-all-in-one"
+  ]
+}
