@@ -1,5 +1,7 @@
 # ETC
 **/*.bak
+**/backup/*
+**/data/*
 
 # General
 .DS_Store
